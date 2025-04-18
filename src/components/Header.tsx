@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { SoccerBall, MenuIcon, X } from "lucide-react";
+import { Ball, MenuIcon, X } from "lucide-react";
 import { useState } from "react";
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
     <header className="bg-primary text-primary-foreground py-4 px-6 sticky top-0 z-50 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-2">
-          <SoccerBall className="h-6 w-6" />
+          <Ball className="h-6 w-6" />
           <h1 className="text-xl font-bold">Футбол Мастер</h1>
         </div>
 

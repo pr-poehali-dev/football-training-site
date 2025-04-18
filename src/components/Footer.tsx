@@ -1,4 +1,4 @@
-import { SoccerBall, Mail, Phone, MapPin, Instagram, Facebook, Youtube } from "lucide-react";
+import { Ball, Mail, Phone, MapPin, Instagram, Facebook, Youtube } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <SoccerBall className="h-6 w-6" />
+              <Ball className="h-6 w-6" />
               <h2 className="text-xl font-bold">Футбол Мастер</h2>
             </div>
             <p className="text-gray-400 mb-4">
